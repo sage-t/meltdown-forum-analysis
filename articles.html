@@ -92,7 +92,13 @@
 
             <p>
                 Each article's goal is to inform the reader about Meltdown. However, the focus is different.
-                
+                Tech Crunch's focus is on making the topic digestable to the common person. They don't 
+                use words that would only be understood by computer scientists. Instead, they make sure
+                the reader understands that the problem affects almost every computer regardless of OS
+                and they give some insights into how the problem may affect the readers in their life.
+                By contrast, the white paper provides a microscope into how the vulnerability occurs, 
+                how to reproduce it, and how it can be used on any OS and all 3 big CPU brands. There
+                is enough detail so that anyone with the knowledge can reproduce the Meltdown vulnerability.
             </p>
             <hr>
             <h2>Article Comparison</h2>
@@ -102,12 +108,37 @@
             
             <h3>Tech Crunch</h3>
             <p>
-                TODO
+                With Tech Crunch's audience being much larger and less educated in computer security, 
+                the information given by the article can be entirely found in the abstract and introduction
+                of the white paper. The article has a Q&A type of format for readers to easily parse
+                what they want to know. Tech Crunch also provides a lot of information about how the 
+                world will be affected. They make sure the reader understands that tech companies are
+                working hard on a fix, but a good fix hasn't been found yet. They also give reason to
+                the question about why the authors of the white paper waited seven months to tell the public.
+                Overall, the Tech Crunch article did a great job at informing the reader about questions
+                they may have, even if they read the white paper.
             </p>
 
             <h3>White Paper</h3>
             <p>
-                TODO
+                The audience for the white paper is computer scientist that specialize in low level
+                security. This audience is small, but a large portion of the audience will use the 
+                information in their profession. Engineers at Intel and AMD for intance have been using
+                this article for the last seven months to figure out how to implement the best fix, similar
+                to the solultion given in the article. The article makes use of images for diagrams of 
+                the CPU's architecture and even has raw bit output of the memory that the authors were
+                able to hack as shown in the figure below.
+            </p>
+            
+            <figure class="figure">
+                <img src="index_files/memory_dump.png" class="figure-img img-fluid rounded" style="width: 400px;" alt="Memory dump">
+                <figcaption class="figure-caption">Memory dump with HTTP headers that should be hidden.</figcaption>
+            </figure>
+
+            <p>
+                The rehtoric used is extremely dense, also. For each section of the paper, if a reader
+                were to glaze over a single line, they would be forced to go back and re-read. Otherwise
+                the rest of the section will probably not make much sense.
             </p>
 
             <hr>
